@@ -1,136 +1,93 @@
 # Hi, I'm Raf
 
-23-year-old final-year BSc Computer Science student at Bournemouth University, on track for a First.  
-Aspiring **Software Engineer / Full‑Stack Engineer** based around **London / South UK**, interested in building reliable web apps, APIs, and ML/LLM-powered products.
+23-year-old final-year BSc Computer Science student at Bournemouth University, **on track for a First**.  
+Aspiring **Software Engineer / Full‑Stack Engineer** (London / South UK), focused on building reliable web apps, APIs, cloud deployments and ML/LLM-powered features.
 
 ---
 
-## At a glance
+### Snapshot
 
-- 🎓 BSc Computer Science, Bournemouth University – **final year, on track for a First**
-- 💻 Interests: backend-heavy web apps, APIs, cloud-native development, and applied deep learning / LLMs
-- 🌍 Location: London / hybrid across the South of the UK
+- 🎓 BSc Computer Science, Bournemouth University – final year, **predicted First**  
+  - 95/100 in Deep Learning unit  
+  - 70/100 (First) in Computability & Complexity unit  
+- 💻 Interests: backend-heavy web apps, CI/CD, cloud-native, applied deep learning / LLMs, optimisation  
+- 🌍 Location: London / hybrid across South of the UK  
 - 🎯 Actively looking for **graduate Software Engineer / Full‑Stack Engineer roles in the UK**
 
 ---
 
-## Tech stack
+### Tech stack
 
-**Languages**
-
-- Python  
-- JavaScript  
-- HTML, CSS  
-
-**Backend & APIs**
-
-- FastAPI  
-- RESTful API design  
-- LLM integration via **OpenAI APIs**
-
-**Cloud, Databases & DevOps**
-
-- Google Cloud Platform:  
-  - App Engine  
-  - Cloud Run  
-  - Cloud SQL  
-  - Secret Manager  
-- External services:  
-  - Neon (PostgreSQL)  
-  - MongoDB Atlas (NoSQL)  
-- CI/CD & tooling:  
-  - VS Code for development  
-  - Git & GitHub for version control and automation triggers  
-  - Docker for containerising applications  
-  - Cloud Run for container deployment
-
-**Data, ML & Optimisation**
-
-- Deep learning in Python (model training, evaluation, deployment via notebooks)  
-- Experience implementing and evaluating CNN-based image classifiers  
-- Model evaluation on competitive benchmarks (e.g. **0.81 validation accuracy** on a private Kaggle competition)  
-- Genetic algorithms and metaheuristics for scheduling and optimisation problems
+**Core:** Python, JavaScript, HTML, CSS  
+**Backend & APIs:** FastAPI, RESTful API design, OpenAI API (LLM integration)  
+**Cloud & DevOps:** Google Cloud (App Engine, Cloud Run, Cloud SQL, Secret Manager, Cloud Functions), Docker, Git & GitHub CI/CD  
+**Databases:** PostgreSQL (Neon, Cloud SQL), MongoDB Atlas (NoSQL)  
+**Data, ML & Optimisation:** CNNs, deep learning in Python, Kaggle (0.81 private validation), NumPy, genetic algorithms, metaheuristics, greedy heuristics, Matplotlib
 
 ---
 
-## Featured projects
+### Featured projects
 
-### MnA CRM – Deal & Relationship Management Platform
+#### MnA CRM – Deal & Relationship Management + LLM Email Assistant
 
-A custom CRM web application for managing **M&A deal pipelines**, contacts, notes and a OpenAI GPT 5-nano chatbot for drafting emails, with a focus on clear UX, robust backend design, and a practical CI/CD workflow.
+Full‑stack **M&A CRM** for managing deal pipelines, organisations, contacts and notes, with an integrated **OpenAI GPT 5‑nano chatbot** for drafting emails, and a production-style CI/CD pipeline.
 
-- Full‑stack web app with a REST API backend
-- LLM powered chatbot for drafting emails to leads.
-- Designed data models and flows for deal stages, organisations and contacts  
-- **CI/CD pipeline:**  
-  - Develop in **VS Code**, commit to **GitHub**  
-  - GitHub changes trigger **Docker** image builds  
-  - Container images deployed to **Google Cloud Run**, exposing a live, managed HTTPS endpoint  
-- Demonstrates production-style workflows: containerisation, environment configuration, and repeatable deployments
-- Live demo hosted on **Google Cloud Run**: https://mna-crm-ai-610840296940.europe-west1.run.app/login (Chatbot is disabled for demo purposes)
-- Originally was hosted on Google App Engine with postgreSQL database hosted on Cloud SQL
-
-**Tech:** Python, JavaScript, HTML, CSS, REST APIs, OpenAi, Docker, GitHub, Google Cloud Run, relational databases, Google App Engine, Google Cloud Functions, Google Cloud SQL, MongoDB, Neon postgreSQL
+- Deal, contact and notes management with clear UX and robust backend design  
+- LLM-powered chatbot drafts outreach and follow‑up emails to leads (disabled in public demo)  
+- **CI/CD:** develop in VS Code → commit to GitHub → Docker builds image → deploy container to **Google Cloud Run** (managed HTTPS endpoint)  
+- Originally deployed on **Google App Engine** with PostgreSQL on **Cloud SQL**  
+- Uses broader GCP services including **Cloud Functions**, **Secret Manager**, and external DBs (**MongoDB**, **Neon PostgreSQL**)  
+- **Tech:** Python, JavaScript, HTML, CSS, REST APIs, OpenAI, Docker, GitHub, Google Cloud Run, App Engine, Cloud Functions, Cloud SQL, MongoDB, Neon PostgreSQL  
+- **Live demo (demo data):** https://mna-crm-ai-610840296940.europe-west1.run.app/login
 
 ---
 
-### Deep Learning Footprint Classifier
+#### Deep Learning Footprint Classifier
 
-A deep learning project that classifies footprint images in a single, well-documented **Google Colab notebook**, achieving **95/100** in a university deep learning unit.
+Deep learning project built with **pytorch** to classify footprint images in a single, well-documented **Google Colab notebook**, achieving **95/100** in the Deep Learning unit.
 
 - End‑to‑end pipeline: data loading, preprocessing, model training, evaluation and visualisation  
-- Convolutional neural network for binary image classification  
-- Achieved **0.81 validation accuracy on the private Kaggle competition**, demonstrating strong generalisation  
-- Clear experiment tracking, metric reporting and justification of architectural/design choices  
-- Notebook structured for readability and reproducibility, suitable as a standalone artefact for review
-- Achieved 95/100 on the Deep Learning unit.
-
-**Tech:** Python, deep learning (CNNs), Google Colab, Kaggle, model evaluation and experimentation
+- Convolutional neural network built with **pytorch** for **binary image classification**  
+- Achieved **0.81 validation accuracy** on the private Kaggle competition (good generalisation)  
+- Clear experiment tracking, metrics and design justification; notebook is fully reproducible and reviewable  
+- **Tech:** Python, deep learning (CNNs), pytorch, pandas, Google Colab, Kaggle, model evaluation & experimentation
 
 ---
 
-### Flexible Job Shop Scheduling – Genetic Metaheuristic
+#### Flexible Job Shop Scheduling – Genetic Metaheuristic
 
-A Python-based **genetic metaheuristic** to find near-optimal solutions to the **Flexible Job Shop Problem (FJSP)**.
+Python-based **genetic metaheuristic** to find near-optimal solutions to the **Flexible Job Shop Problem (FJSP)**.
 
-- Models jobs, operations and machines with flexible routing
-- Random and greedy heuristics implemented.
-- Uses a genetic algorithm to evolve schedules towards lower makespan / improved utilisation
-- Full evaluation of random vs greedy vs genetic algorithms using Matplotlib
-- Built with **NumPy** for efficient representation and manipulation of schedules and populations  
-- Demonstrates understanding of combinatorial optimisation, heuristic design and practical trade-offs between optimality and compute time
-- Achieved 70/100 or 1st on the Computability and Complexity unit.
-
-**Tech:** Python, NumPy, genetic algorithms, metaheuristics, scheduling & optimisation, greedy heuristics, matplotlib
+- Models jobs, operations and machines with flexible routing  
+- Implements **random, greedy and genetic** scheduling algorithms  
+- Evaluates and compares approaches (e.g. makespan, utilisation) using **Matplotlib**  
+- Built with **NumPy** for efficient schedule/population representation and manipulation  
+- Achieved **70/100 (First)** in the Computability & Complexity unit  
+- **Tech:** Python, NumPy, genetic algorithms, metaheuristics, greedy heuristics, scheduling & optimisation, Matplotlib
 
 ---
 
-### LLM Chatbot – Live Web Application
+#### LLM Chatbot – Live Web Application
 
-An LLM-powered chatbot deployed as a real user-facing product and integrated into a website.
+LLM-powered chatbot deployed as a real user-facing product and integrated into a client website.
 
-- Backend calls **OpenAI APIs** to handle natural language queries and responses  
-- Application deployed via **Render.com**, handling hosting and runtime  
-- Chat interface embedded into a **WordPress** site using a custom script, providing a seamless UX  
-- Demonstrates full‑stack delivery: from prompt design and API integration through to deployment and embedding in a production CMS
-- Chatbot successfully deployed for client. Demo of chatbot available at: https://www.superioroutreach.ai/
-
-**Tech:** Python, JavaScript, HTML, CSS, OpenAI API, deployment via Render.com, WordPress embedding
+- Backend calls **OpenAI APIs** for natural language queries and responses  
+- Application deployed via **Render.com**  
+- Chat interface embedded into a **WordPress** site using a custom script for a seamless UX  
+- Successfully deployed for a client; **public demo:** https://www.superioroutreach.ai/  
+- **Tech:** Python, JavaScript, HTML, CSS, OpenAI API, Render.com, WordPress embedding
 
 ---
 
-## How I like to work
+### How I like to work
 
-- Focused on **clean, readable code** and clear project structure  
-- Comfortable working end‑to‑end: from designing data models and APIs to building front‑end views  
-- Used to working with **cloud services, containers, CI/CD pipelines**, and optimisation algorithms  
-- Enjoy learning by building: most of my skills come from shipping real coursework and side projects
+- Write **clean, readable code** with clear project structure  
+- Comfortable working end‑to‑end: data models, APIs, front‑end integration, deployment  
+- Experienced with **cloud services, containers, CI/CD pipelines and optimisation algorithms**  
+- Learn by building and iterating on real projects and coursework
 
 ---
 
-## Get in touch
-
-If you’d like to talk about roles, projects or collaboration:
+### Get in touch
 
 - LinkedIn: https://www.linkedin.com/in/raf-christian-82024b242/
-
