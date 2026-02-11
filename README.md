@@ -57,19 +57,20 @@ Aspiring **Software Engineer / Full‑Stack Engineer** based around **London / S
 
 ### MnA CRM – Deal & Relationship Management Platform
 
-A custom CRM web application for managing **M&A deal pipelines**, contacts and notes, with a focus on clear UX, robust backend design, and a practical CI/CD workflow.
+A custom CRM web application for managing **M&A deal pipelines**, contacts, notes and a OpenAI GPT 5-nano chatbot for drafting emails, with a focus on clear UX, robust backend design, and a practical CI/CD workflow.
 
-- Full‑stack web app with a REST API backend  
+- Full‑stack web app with a REST API backend
+- LLM powered chatbot for drafting emails to leads.
 - Designed data models and flows for deal stages, organisations and contacts  
 - **CI/CD pipeline:**  
   - Develop in **VS Code**, commit to **GitHub**  
   - GitHub changes trigger **Docker** image builds  
   - Container images deployed to **Google Cloud Run**, exposing a live, managed HTTPS endpoint  
 - Demonstrates production-style workflows: containerisation, environment configuration, and repeatable deployments
-- Live demo hosted on **Google Cloud Run**: https://mna-crm-ai-610840296940.europe-west1.run.app/login
+- Live demo hosted on **Google Cloud Run**: https://mna-crm-ai-610840296940.europe-west1.run.app/login (Chatbot is disabled for demo purposes)
 - Originally was hosted on Google App Engine with postgreSQL database hosted on Cloud SQL
 
-**Tech:** Python, JavaScript, HTML, CSS, REST APIs, Docker, GitHub, Google Cloud Run, relational databases, Google App Engine, Google Cloud Functions, Google Cloud SQL, MongoDB, Neon postgreSQL
+**Tech:** Python, JavaScript, HTML, CSS, REST APIs, OpenAi, Docker, GitHub, Google Cloud Run, relational databases, Google App Engine, Google Cloud Functions, Google Cloud SQL, MongoDB, Neon postgreSQL
 
 ---
 
