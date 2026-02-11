@@ -22,7 +22,7 @@ Aspiring **Software Engineer / Full‑Stack Engineer** (London / South UK), focu
 **Backend & APIs:** FastAPI, RESTful API design, OpenAI API (LLM integration)  
 **Cloud & DevOps:** Google Cloud (App Engine, Cloud Run, Cloud SQL, Secret Manager, Cloud Functions), Docker, Git & GitHub CI/CD  
 **Databases:** PostgreSQL (Neon, Cloud SQL), MongoDB Atlas (NoSQL)  
-**Data, ML & Optimisation:** CNNs, deep learning in Python, Kaggle (0.81 private validation), NumPy, genetic algorithms, metaheuristics, greedy heuristics, Matplotlib
+**Data, ML & Optimisation:** CNNs, deep learning in Python, Kaggle, NumPy, genetic algorithms, metaheuristics, greedy heuristics, Matplotlib
 
 ---
 
