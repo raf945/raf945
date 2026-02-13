@@ -39,7 +39,7 @@ Full‑stack **M&A CRM** for managing deal pipelines, organisations, contacts an
 - Originally deployed on **Google App Engine** with PostgreSQL on **Cloud SQL**  
 - Uses broader GCP services including **Cloud Functions**, **Secret Manager**, and external DBs (**MongoDB**, **Neon PostgreSQL**)  
 - **Tech:** Python, JavaScript, HTML, CSS, REST APIs, OpenAI, Docker, GitHub, Google Cloud Run, App Engine, Cloud Functions, Cloud SQL, MongoDB, Neon PostgreSQL  
-- **Live demo (demo data):** https://mna-crm-ai-610840296940.europe-west1.run.app/login
+- **Live demo:** Available [HERE](https://mna-crm-ai-610840296940.europe-west1.run.app/login)
 
 ---
 
@@ -52,6 +52,7 @@ Deep learning project built with **pytorch** to classify footprint images in a s
 - Achieved **0.81 validation accuracy** on the private Kaggle competition (good generalisation)  
 - Clear experiment tracking, metrics and design justification; notebook is fully reproducible and reviewable  
 - **Tech:** Python, deep learning (CNNs), pytorch, pandas, Google Colab, Kaggle, model evaluation & experimentation
+- **Full Machine Learning notebook:** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/raf945/Deep_learning_Footprint_classifer/blob/main/Deep_learning_footprint_classifier.ipynb).
 
 ---
 
