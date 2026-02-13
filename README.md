@@ -10,9 +10,10 @@ Aspiring **Software Engineer / Full‑Stack Engineer** (London / South UK), focu
 - 🎓 BSc Computer Science, Bournemouth University – final year, **predicted First**  
   - 95/100 in Deep Learning unit  
   - 70/100 (First) in Computability & Complexity unit  
-- 💻 Interests: backend-heavy web apps, CI/CD, cloud-native, applied deep learning / LLMs, optimisation  
+- 💻 Interests: backend-heavy web apps, CI/CD, cloud-native, applied deep learning / LLMs, optimisation, **AI Agents**  
 - 🌍 Location: London / hybrid across South of the UK  
 - 🎯 Actively looking for **graduate Software Engineer / Full‑Stack Engineer roles in the UK**
+- ⚙️ Built full-stack applications, delivered to clients and solved real-world problems
 
 ---
 
