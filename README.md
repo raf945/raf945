@@ -1,6 +1,6 @@
 # Hi, I'm Raf
 
-23-year-old final-year BSc Computer Science student at Bournemouth University, **on track for a First**.  
+24-year-old final-year BSc Computer Science student at Bournemouth University, **on track for a First**.  
 Aspiring **Software Engineer / Full‑Stack Engineer** (London / South UK), focused on building reliable web apps, APIs, cloud deployments and ML/LLM-powered features.
 
 ---
@@ -19,15 +19,33 @@ Aspiring **Software Engineer / Full‑Stack Engineer** (London / South UK), focu
 
 ### Tech stack
 
-**Core:** Python, JavaScript, HTML, CSS  
+**Core:** Python, JavaScript, TypeScript, HTML, CSS
+**Frontend:** React, Tailwind 4.0, Shadcn, Lucide
 **Backend & APIs:** FastAPI, RESTful API design, OpenAI API (LLM integration)  
-**Cloud & DevOps:** Google Cloud (App Engine, Cloud Run, Cloud SQL, Secret Manager, Cloud Functions), Docker, Git & GitHub CI/CD  
-**Databases:** PostgreSQL (Neon, Cloud SQL), MongoDB Atlas (NoSQL)  
-**Data, ML & Optimisation:** CNNs, deep learning in Python, Kaggle, NumPy, genetic algorithms, metaheuristics, greedy heuristics, Matplotlib
+**Cloud & DevOps:** Google Cloud (App Engine, Cloud Run, Cloud SQL, Secret Manager, Cloud Functions), Docker, Git & GitHub CI/CD, Digital Ocean App Platform
+**Databases:** PostgreSQL (Neon, Cloud SQL), MongoDB Atlas (NoSQL), Qdrant (Vector Database)
+**Data, ML & Optimisation:** CNNs, LLMs, AI Agents, deep learning, Kaggle, NumPy, genetic algorithms, metaheuristics, greedy heuristics, Matplotlib, Pytorch, OpenAI API
 
 ---
 
 ### Featured projects
+
+#### AI Legal Contract Reviewer – GPT/RAG Contract Analysis + Clause Risk Explainer
+
+Full-stack **legal AI contract reviewer** for analysing English-law contract PDFs, classifying contract segments, extracting clauses, and generating **plain-English clause explanations** with client-facing risk analysis using **GPT 5.4**, **RAG**, and a lawyer-reviewed workflow.
+
+* Built a two-phase legal AI system combining an end-to-end ML research pipeline with a deployed full-stack web application
+* Compared **zero-shot GPT 5.4 mini**, **GPT 5.4 mini + RAG**, and **fine-tuned Legal-BERT** on a lawyer-annotated dataset of **3,548 contract segments**
+* Classifies contract text into seven structural categories including clauses, definitions, headings, recitals, preamble/parties and other sections
+* Uses **Azure Document Intelligence** to scan uploaded PDFs and extract structured contract segments
+* Uses **OpenAI embeddings** and **Qdrant vector search** to retrieve relevant context from the same contract before explaining clauses
+* Generates plain-English clause explanations with dedicated **Client Risk** analysis, reviewed by legal annotators
+* Includes secure login with **Supabase Auth**, PDF upload/storage with **DigitalOcean Spaces**, and in-browser PDF viewing with clause highlighting
+* **CI/CD:** GitHub repository connects directly to **DigitalOcean App Platform** → pushes trigger automatic frontend/backend build and deployment
+* **Tech:** Python, TypeScript, FastAPI, React 19, Vite, Tailwind CSS, Supabase Auth, Azure Document Intelligence, OpenAI, GPT 5.4 mini, GPT 5.4, RAG, Qdrant, DigitalOcean Spaces, DigitalOcean App Platform, PyTorch, Hugging Face Transformers, sentence-transformers, pandas, NumPy, Matplotlib, Label Studio, Git, GitHub
+* **Live demo:** Available [HERE](https://contract-reviewer-xyae8.ondigitalocean.app/)
+
+---
 
 #### MnA CRM – Deal & Relationship Management + LLM Email Assistant
 
