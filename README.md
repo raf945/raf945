@@ -20,10 +20,15 @@ Aspiring **Software Engineer / Full‑Stack Engineer** (London / South UK), focu
 ### Tech stack
 
 **Core:** Python, JavaScript, TypeScript, HTML, CSS
+
 **Frontend:** React, Tailwind 4.0, Shadcn, Lucide
+
 **Backend & APIs:** FastAPI, RESTful API design, OpenAI API (LLM integration)  
+
 **Cloud & DevOps:** Google Cloud (App Engine, Cloud Run, Cloud SQL, Secret Manager, Cloud Functions), Docker, Git & GitHub CI/CD, Digital Ocean App Platform
+
 **Databases:** PostgreSQL (Neon, Cloud SQL), MongoDB Atlas (NoSQL), Qdrant (Vector Database)
+
 **Data, ML & Optimisation:** CNNs, LLMs, AI Agents, deep learning, Kaggle, NumPy, genetic algorithms, metaheuristics, greedy heuristics, Matplotlib, Pytorch, OpenAI API
 
 ---
