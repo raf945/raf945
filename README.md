@@ -1,6 +1,6 @@
 # Hi, I'm Raf
 
-24-year-old final-year BSc Computer Science graduate at Bournemouth University, **Achieved a first**.  
+24-year-old BSc Computer Science graduate at Bournemouth University, **Achieved a first**.  
 Aspiring **Software Engineer / Full‑Stack Engineer** (London / South UK), focused on building reliable web apps, APIs, cloud deployments and ML/LLM-powered features.
 
 ---
