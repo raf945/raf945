@@ -7,7 +7,7 @@ Aspiring **Software Engineer / Full‑Stack Engineer** (London / South UK), focu
 
 ### Snapshot
 
-- 🎓 BSc Computer Science, Bournemouth University – final year, **predicted First**  
+- 🎓 BSc Computer Science, Bournemouth University – First-Class Graduate
   - 95/100 in Deep Learning unit  
   - 70/100 (First) in Computability & Complexity unit
 - 💻 Interests: full-stack SaaS apps, CI/CD, cloud-native, applied deep learning / LLMs, optimisation, **AI Agents**  
