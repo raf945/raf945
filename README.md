@@ -1,4 +1,4 @@
-# Hi, I'm Raf
+# FDE && Full-Stack
 
 24-year-old Forward Deployed Engineer at **Superior Outreach AI**. I build AI agents, automations and full-stack apps, and take them from design to production with real clients.
 
